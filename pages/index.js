@@ -39,19 +39,20 @@ export default function Home() {
             <p>A Resource Site</p>
           </a>
 
-          <a
-            href="https://fs.fatdev.name"
-            className={styles.card}
-          >
+            <a
+              href="https://fs.fatdev.name"
+              className={styles.card}
+            >
             <h3>FlaskStatic</h3>
             <p>
               Simplae Site Gnerator
             </p>
+            </a>
             <a
               href="/about"
               className={styles.card}
             >
-              <h3>About Me</h3>
+              <h3>About Me!</h3>
               <p>
                 About Me
               </p>
