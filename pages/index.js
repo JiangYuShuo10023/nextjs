@@ -18,7 +18,7 @@ export default function Home() {
           A Student,Like{' '}
           <code className={styles.code}>Eating</code>
           <a href="/about">About Me</a>
-          <br>
+
           World.Of Darkness
         </p>
 
