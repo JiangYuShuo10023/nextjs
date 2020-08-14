@@ -18,7 +18,8 @@ export default function Home() {
           A Student,Like{' '}
           <code className={styles.code}>Eating</code>
         </p>
-
+        import Link from 'next/link'
+        export default () =>
           <div>
             <Link href="/about">
               <a>About</a>
