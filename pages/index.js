@@ -5,59 +5,54 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>FatManDJ</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <a href="https://blog.fatdev.name">FatManDJ</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          A Student,Like{' '}
+          <code className={styles.code}>Eating</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://blog.fatdev.name" className={styles.card}>
+            <h3>My Blog</h3>
+            <p>Using Hexo</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://github.com/JiangYuShuo10023" className={styles.card}>
+            <h3>GitHub</h3>
+            <p>See Programs</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://algores.now.sh"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>AlgoRes</h3>
+            <p>A Resource Site</p>
+          </a>
+
+          <a
+            href="https://fs.fatdev.name"
+            className={styles.card}
+          >
+            <h3>FlaskStatic</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Simplae Site Gnerator
             </p>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          Next.JS Maded
+
         </a>
       </footer>
     </div>
