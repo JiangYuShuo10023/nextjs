@@ -22,8 +22,6 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <h1>Friend Links</h1>
-          <br/>
           <a href="https://cnblogs.com/blog-xhg78999">XHG78999</a>
           <br/>
         </div>

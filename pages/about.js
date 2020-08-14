@@ -22,8 +22,6 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <h1>About Me</h1>
-          <br/>
           A Student,
           <br/>
           live in china
