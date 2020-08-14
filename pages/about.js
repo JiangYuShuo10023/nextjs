@@ -22,33 +22,13 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://blog.fatdev.name" className={styles.card}>
-            <h3>My Blog</h3>
-            <p>Using Hexo</p>
-          </a>
+          <h1>About Me<h1>
+          A Student,
+          <pre>
+          live in china
+          <pre>
+          and nothing
 
-          <a href="https://github.com/JiangYuShuo10023" className={styles.card}>
-            <h3>GitHub</h3>
-            <p>See Programs</p>
-          </a>
-
-          <a
-            href="https://algores.now.sh"
-            className={styles.card}
-          >
-            <h3>AlgoRes</h3>
-            <p>A Resource Site</p>
-          </a>
-
-          <a
-            href="https://fs.fatdev.name"
-            className={styles.card}
-          >
-            <h3>FlaskStatic</h3>
-            <p>
-              Simplae Site Gnerator
-            </p>
-          </a>
         </div>
 
       </main>
