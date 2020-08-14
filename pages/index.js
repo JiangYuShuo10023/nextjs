@@ -51,9 +51,8 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-          Next.JS Maded
-
-        </a>
+          World.Of Darkness.
+          <a href="https://github.com/JiangYuShuo10023/">GitHub</a>
       </footer>
     </div>
   )
