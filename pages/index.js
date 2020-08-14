@@ -17,14 +17,10 @@ export default function Home() {
         <p className={styles.description}>
           A Student,Like{' '}
           <code className={styles.code}>Eating</code>
+          <a href="/about">About Me</a>
+          <br>
+          World.Of Darkness
         </p>
-        import Link from 'next/link'
-        export default () =>
-          <div>
-            <Link href="/about">
-              <a>About</a>
-            </Link>
-          </div>
 
         <div className={styles.grid}>
           <a href="https://blog.fatdev.name" className={styles.card}>
