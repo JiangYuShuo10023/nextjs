@@ -17,8 +17,9 @@ export default function Home() {
         <p className={styles.description}>
           A Student,Like{' '}
           <code className={styles.code}>Eating</code>
+          {' '}
           <a href="/about">About Me</a>
-
+          {' '}
           World.Of Darkness
         </p>
 
