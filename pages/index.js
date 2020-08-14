@@ -19,6 +19,12 @@ export default function Home() {
           <code className={styles.code}>Eating</code>
         </p>
 
+          <div>
+            <Link href="/about">
+              <a>About</a>
+            </Link>
+          </div>
+
         <div className={styles.grid}>
           <a href="https://blog.fatdev.name" className={styles.card}>
             <h3>My Blog</h3>
@@ -48,6 +54,7 @@ export default function Home() {
             </p>
           </a>
         </div>
+
       </main>
 
       <footer className={styles.footer}>
