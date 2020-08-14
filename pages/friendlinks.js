@@ -22,14 +22,10 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <h1>About Me</h1>
+          <h1>Friend Links</h1>
           <br/>
-          A Student,
+          <a href="https://cnblogs.com/blog-xhg78999">XHG78999</a>
           <br/>
-          live in china
-          <br/>
-          and nothing
-
         </div>
 
       </main>

@@ -17,7 +17,6 @@ export default function Home() {
         <p className={styles.description}>
           A Student,Like{' '}
           <code className={styles.code}>Eating</code>{' '},
-          <a href="/about">About Me</a>,
           <a href="https://github.com/JiangYuShuo10023">GitHub</a>
         </p>
 
@@ -48,7 +47,26 @@ export default function Home() {
             <p>
               Simplae Site Gnerator
             </p>
-          </a>
+            <a
+              href="/about"
+              className={styles.card}
+            >
+              <h3>About Me</h3>
+              <p>
+                About Me
+              </p>
+
+            </a>
+            <a
+              href="/friendlinks"
+              className={styles.card}
+            >
+              <h3>Friend links</h3>
+              <p>
+                My Friends
+              </p>
+
+            </a>
         </div>
 
       </main>
