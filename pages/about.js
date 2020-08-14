@@ -24,9 +24,9 @@ export default function Home() {
         <div className={styles.grid}>
           <h1>About Me<h1>
           A Student,
-          <pre>
+          <br/>
           live in china
-          <pre>
+          <br/>
           and nothing
 
         </div>
