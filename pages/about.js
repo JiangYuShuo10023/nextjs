@@ -11,15 +11,9 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a href="https://blog.fatdev.name">FatManDJ</a>
+          <a href="#">About Me</a>
         </h1>
 
-        <p className={styles.description}>
-          A Student,Like{' '}
-          <code className={styles.code}>Eating</code>{' '},
-          <a href="/about">About Me</a>,
-          <a href="https://github.com/JiangYuShuo10023">GitHub</a>
-        </p>
 
         <div className={styles.grid}>
           A Student,
